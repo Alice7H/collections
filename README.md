@@ -108,6 +108,10 @@ Operação `collect`: executa uma operação de redução mutável nos elementos
 
 Operação `map`: converte cada elemento recebido em um outro objeto de acordo com a função passada.
 
+Operação `ifPresent`: se um valor estiver presente, executa a ação dada com o valor, caso contrário, não faz nada.
+
+Operação `removeIf`: remove todos os elementos desta coleção que atendem ao predicado fornecido.
+
 ### Mais informações em:
 
 - [Universidade Federal de Campina Grande](http://www.dsc.ufcg.edu.br/~jacques/cursos/p2/html/ed/colecoes.htm)
